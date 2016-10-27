@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-element.innerHTML='new value';
+element.innerHTML='new value has been deployed';
 var img=document.getElementById('madi');
 var marginLeft=0;
 function moveRight(){
