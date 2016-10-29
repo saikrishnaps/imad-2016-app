@@ -22,7 +22,7 @@ app.use(morgan('combined'));
     'article-two':{
          title:'article Two',
         heading:'Article-two',
-        date:'sep 5, 2016',
+        date:'sep 23, 2016',
         content:`<p>
                this is the content containing the article Two.
            </p>`
