@@ -1,6 +1,4 @@
-
-
- var express = require('express');
+var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
@@ -12,82 +10,10 @@ app.get('/counter', function (req, res) {
   res.send(counter.toString());
 });
 
-    var articles={
-    'article-one':{
-         title:'article one',
-        heading:'Article-one',
-        date:'sep 5, 2016',
-        content:`<p>
-               this is the content containing the article one .this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one.hiii
-           </p>
-           <p>
-               this is the content containing the article one .this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one 
-           </p><p>
-               this is the content containing the article one .this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one this is the content containing the article one 
-           </p>`
-},
-    'article-two':{
-         title:'article Two',
-        heading:'Article-two',
-        date:'sep 23, 2016',
-        content:`<p>
-               this is the content containing the article Two.
-           </p>`
-},
-    'article-three':{
-         title:'article Three',
-        heading:'Article-three',
-        date:'sep 5, 2016',
-        content:`<p>
-               this is the content containing the article Two.
-           </p>`
-}
-};
-
-function createTemplate(data){
-    var title=data.title;
-    var date=data.date;
-    var heading=data.heading;
-    var content=data.content;
-    
-var htmlTemplate=`
-<html>
-    <head>
-        <title>
-            ${titles}
-        </title>
-    <meta name="viewport"  content="width-device-width,initial-scale-1" /> 
-    <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="container">
-       <div>
-           <a href="/">Home</a>
-       </div> 
-       <hr/>
-       <h3>
-           ${heading}
-       </h3>
-       <div>
-           ${date}
-       </div>
-       <div>
-           ${content}
-       </div>
-       </div>
-    </body>
-</html>
-`;
-return htmlTemplate;
-}
-
-app.get('/sai', function (req, res) {
+  app.get('/sai', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/:articleName', function (req, res) {
-  var articleName=req.params.articleName;
-  res.send(createTemplate(articles[articleName]));
-});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
