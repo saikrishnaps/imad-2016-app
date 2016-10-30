@@ -1,4 +1,4 @@
-var button=document.getElementById('counter');
+/*var button=document.getElementById('counter');
 var counter=0;
 button.onclick= function() {
     var request=new XMLHttpRequest();
@@ -13,4 +13,4 @@ button.onclick= function() {
     };
     request.open('GET','http://saikrishnaps.imad.hasura-app.io',true);
     request.send(null);
-};
+};*/
