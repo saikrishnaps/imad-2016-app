@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/', function (req, res) {
+app.get('/sai', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
@@ -50,7 +50,7 @@ app.get('/ui/login.php', function (req, res) {
 
 
 var counter=0;
-app.get('/counter',function(req, res){
+app.get('/sai/counter',function(req, res){
 counter = counter + 1;
 res.send(counter.toString());
 });
@@ -72,7 +72,7 @@ res.send(JSON.stringify(names));
 
 
 
-app.get('/:articleName', function (req, res) {
+app.get('/sai/:articleName', function (req, res) {
  var articleName=req.params.articleName;
 res.send(createTemplate(articles[articleName]));
  });
