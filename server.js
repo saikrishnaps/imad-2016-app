@@ -3,7 +3,7 @@
  var path = require('path');
   var app = express();
  app.use(morgan('combined'));
- app.get('/sai', function (req, res) {
+ app.get('/', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
  });
 
@@ -18,6 +18,5 @@ app.get('/ui/style.css', function (req, res) {
  var port = 8080;
  app.listen(8080, function () {
    console.log(`IMAD course app listening on port ${port}!`);
-   //app.listen(80, function () {
-    //console.log('IMAD course app listening on port 80!');
+   
  });
