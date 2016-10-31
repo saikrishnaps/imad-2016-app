@@ -5,53 +5,6 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
-
-
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
-
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-});
-
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-});
-
-
-var counter=0;
-app.get('/sai/counter',function(req, res){
-counter = counter + 1;
-res.send(counter.toString());
-});
-
-
- //CODE FOR GETTING VALUES
-var names=[];
-//app.get('/submit_name/:name',function(req,res){
-app.get('/sai/submit_name',function(req,res){
-//var name=req.params.name;   //way 1
-var name=req.query.name;
-names.push(name);
-res.send(JSON.stringify(names)); 
-});
-
-
-
-
-
-
-
-app.get('/sai/:articleName', function (req, res) {
- var articleName=req.params.articleName;
-res.send(createTemplate(articles[articleName]));
- });
-
-
  
 /* CREATING TEMPLATE*/
 
@@ -127,6 +80,51 @@ return template;
 }
 
 
+app.get('/', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
+
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+
+app.get('/ui/madi.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
+
+
+var counter=0;
+app.get('/sai/counter',function(req, res){
+counter = counter + 1;
+res.send(counter.toString());
+});
+
+
+ //CODE FOR GETTING VALUES
+var names=[];
+//app.get('/submit_name/:name',function(req,res){
+app.get('/sai/submit_name',function(req,res){
+//var name=req.params.name;   //way 1
+var name=req.query.name;
+names.push(name);
+res.send(JSON.stringify(names)); 
+});
+
+
+
+
+
+
+
+app.get('/sai/:articleName', function (req, res) {
+ var articleName=req.params.articleName;
+res.send(createTemplate(articles[articleName]));
+ });
 
 
 
