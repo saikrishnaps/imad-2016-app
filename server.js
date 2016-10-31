@@ -133,7 +133,7 @@ var template= `
 </head>
 <body>
 <div id="header">
-<a href="/">HOME</a>|<a href="/sai/articleOne">Article1</a>|<a href="/sai/articleTwo">Article2</a>|<a href="articleThree">Article3</a>
+<a href="/sai">HOME</a>|<a href="/sai/articleOne">Article1</a>|<a href="/sai/articleTwo">Article2</a>|<a href="articleThree">Article3</a>
 </div>
 <hr>
 <h3>
