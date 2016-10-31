@@ -108,7 +108,7 @@ res.send(counter.toString());
  //CODE FOR GETTING VALUES
 var names=[];
 //app.get('/submit_name/:name',function(req,res){
-app.get('/sai/submit_name',function(req,res){
+app.get('/submit_name',function(req,res){
 //var name=req.params.name;   //way 1
 var name=req.query.name;
 names.push(name);
