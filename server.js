@@ -74,7 +74,7 @@ var htmlTemplate=`
 return htmlTemplate;
 }
 
-app.get('/', function (req, res) {
+app.get('/sai', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var counter=0;
