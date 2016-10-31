@@ -1,10 +1,10 @@
 console.log('Loaded!');
 
 //show address onclick
-function show_address(){
+/*function show_address(){
 var element=document.getElementById('address');
 element.innerHTML= '<br>c1-20,Shashtri nagar ,Ghaziabad(201202)';
-}
+} */
 
 //MOve MY PROFILE PIC
 /*
