@@ -22,32 +22,6 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-/*app.get('/ui/images/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', 'madi.png'));
-});
-app.get('/ui/images/inayat.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', 'inayat.jpg'));
-});
-
-app.get('/ui/a.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'a.png'));
-});
-
-app.get('/ui/images/a.gif',function(req,res){
-res.sendFile(path.join(__dirname, 'ui/images' , 'a.gif'))
-});
-app.get('/ui/images/fb.jpg',function(req,res){
-res.sendFile(path.join(__dirname, 'ui/images' , 'fb.jpg'))
-});
-app.get('/ui/images/gl.jpg',function(req,res){
-res.sendFile(path.join(__dirname, 'ui/images' , 'gl.jpg'))
-});
-
-app.get('/ui/login.php', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'login.php'));
-});*/
-
-
 
 var counter=0;
 app.get('/sai/counter',function(req, res){
