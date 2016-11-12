@@ -1,52 +1,88 @@
 <!Doctype html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
 	
-<div id="header">
-<a href="/">HOME</a>|
-<a href="/articleOne">Article1</a>|
-<a href="/articleTwo">Article2</a>|
-<a href="/articleThree">Article3</a>|
-<a href="/counter">TestCounter</a>
-</div>
-<hr>
-        <div class="center">
-          <img id="imgi" src="http://www.queness.com/resources/images/png/apple_web.png" class="img-medium"/>
-        </div>
-        <br>
-		<div id="panel">
-        <div class="center text-big bold">
-          Saikrishna
-        </div>
-	    <table align="center">
-		<tr><td><b>-----------</b><br>-----------------<td><tr>
-		</table>
-		</div>
-		
-    <center>
-		
-		
-	
-<hr>
-<!--
-<h3>Website Hit counter</h3>
-<span id="counter">0</span>-HITS
-<hr>
--->
-You <input type="button" id="ctrbtn" value="clicked Me" />-<span id="counterTxt">0</span>Times<hr>
+		<div class="container">
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img id="imgi" src="http://www.queness.com/resources/images/png/apple_web.png" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						SAIKRISHNA
+					</div>
+					<div class="profile-usertitle-job">
+						Developer
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons">
+					<button type="button" class="btn btn-success btn-sm">Follow</button>
+					<button type="button" class="btn btn-danger btn-sm">Message</button>
+					
+					You <input type="button" id="ctrbtn" value="clicked Me" />-<span id="counterTxt">0</span>Times<hr>
 
 <input type="text" id="name" placeholder="name" /><input type="submit" id="submitbtn" value="SUBMIT" />
 <ul id="namelist">
 </ul>
-
-
+					
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+						<li class="active">
+							<a href="/">
+							<i class="glyphicon glyphicon-home"></i>
+							HOME </a>
+						</li>
+						<li>
+							<a href="/articleOne">
+							<i class="glyphicon glyphicon-user"></i>
+							Article1 </a>
+						</li>
+						<li>
+							<a href="/articleTwo" target="_blank">
+							<i class="glyphicon glyphicon-ok"></i>
+							Article2 </a>
+						</li>
+						<li>
+							<a href="/articleThree">
+							<i class="glyphicon glyphicon-flag"></i>
+							Article3</a>
+						</li>
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+		</div>
+		<div class="col-md-9">
+            <div class="profile-content">
+			   Some user related content goes here...
+            </div>
+		</div>
+	</div>
+</div>
+<center>
+<strong>Powered by <a href="http://j.mp/metronictheme" target="_blank">KeenThemes</a></strong>
+</center>
+<br>
+<br>
 
 
  <script type="text/javascript" src="/ui/main.js"></script>
  <div id="footer"></div>
 
- </center>
     </body>
 	</html>
+	
