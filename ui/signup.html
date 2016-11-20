@@ -27,20 +27,48 @@
       
         <div class="container">
   <h2>Vertical (basic) Form</h2>
-  <form>
+  <form action="index.html" name="registration" id="myForm" method="post">
+        <div class="container">
+            <div class="panel panel-default">
+	<div class="panel-heading">Registration Form</div>
+ 
+  <div class="panel-body">
+      <div class ="row">
+<div class="col-sm-4"> 
+      <div class="form-group">
+    <label for="name">Name*</label>
+    <input type="text" name="name" class="form-control" id="lastname" placeholder="sai">
+      </div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="sai@sap.com">
+</div>
     <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
+    <label for="date">Date Of Birth*</label>
+    <input type="text" name="dob" class="form-control" id="datepicker">
+</div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+    <label for="mobile">Mobile Number*</label>
+    <input type="text" name="mobile" class="form-control" id="mobile" placeholder="">
+</div>
+    <div class="form-group">
+    <label for="pancard">Pancard Number</label>
+    <input type="text" name="pan" class="form-control" id="pan" placeholder="">
+</div>
+    <label for="file">Upload File</label>
+    <input type="file" name="file" class="form-control" >
+</div>
+</div>
+<div class="col-sm-8"> </div>
+ </div>
+<div class="panel-footer"><button type="submit" class="btn btn-default" value="submit">Register</button></div>
+</div>
+            
+  
+            </div>
+        
+        <script src="js/form-validation.js"></script>
+        </form>
 </div>
 
       
