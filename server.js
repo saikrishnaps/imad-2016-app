@@ -69,8 +69,12 @@ var template= `
   <div class="row content">
     <div class="col-sm-3 sidenav">
     </div>
+    <div class="btn pull-right">
+        <a href="/" class="btn btn-success" role="button">Home</a>
+    <a href="/signup" class="btn btn-info" role="button">Signup</a>
+</div>
 <div class="col-sm-9">
-      <h4><small>RECENT POSTS</small></h4>
+      
       <hr>
       <h2>${heading}</h2>
       <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrishna, ${date}.</h5>
