@@ -53,11 +53,16 @@ var heading=data.heading;
 var content=data.content;
 var template= `
    <html>
-  <head>
-<title>${title}</title>
-<link href="/ui/style.css" rel="stylesheet" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-</head>
+<html lang="en">
+<head>
+  <title>${title}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/ui/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
 <body>
 <div id="header">
 <a href="/">HOME</a>|<a href="/articleOne">Article1</a>|<a href="/articleTwo">Article2</a>|<a href="/articleThree">Article3</a>
