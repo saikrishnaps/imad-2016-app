@@ -99,7 +99,7 @@ var template= `
 	  </div>
 	  </div>
 	  <footer class="container-fluid">
-  <p>Footer Text</p>
+  <p>write me at "saikrshn27@gmail.com"</p>
 </footer>
 </body>
 </html>
