@@ -71,11 +71,11 @@ var template= `
     </div>
     <div class="btn pull-right">
         <a href="/" class="btn btn-success" role="button">Home</a>
-    <a href="/signup" class="btn btn-info" role="button">Signup</a>
+    
 </div>
 <div class="col-sm-9">
       
-      <hr>
+      
       <h2>${heading}</h2>
       <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrishna, ${date}.</h5>
       <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
