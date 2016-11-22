@@ -64,6 +64,10 @@ var template= `
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
 <body>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+    </div>
 <div id="header">
 <a href="/">HOME</a>|<a href="/articleOne">Article1</a>|<a href="/articleTwo">Article2</a>|<a href="/articleThree">Article3</a>
 </div>
@@ -76,6 +80,8 @@ ${heading}
 	  </div>
 	  <div>
 	  ${content}
+	  </div>
+	  </div>
 	  </div>
 </body>
 </html>
