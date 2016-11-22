@@ -68,9 +68,17 @@ var template= `
   <div class="row content">
     <div class="col-sm-3 sidenav">
     </div>
-<div id="header">
-<a href="/">HOME</a>|<a href="/articleOne">Article1</a>|<a href="/articleTwo">Article2</a>|<a href="/articleThree">Article3</a>
-</div>
+<div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>I Love Food</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <div>
+	  ${content}
+	  </div>
+      <br><br>
+      </div>
 <hr>
 <h3>
 ${heading}
@@ -78,9 +86,7 @@ ${heading}
       <div>
 	  ${date}
 	  </div>
-	  <div>
-	  ${content}
-	  </div>
+	  
 	  </div>
 	  </div>
 </body>
