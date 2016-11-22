@@ -71,8 +71,8 @@ var template= `
 <div class="col-sm-9">
       <h4><small>RECENT POSTS</small></h4>
       <hr>
-      <h2>I Love Food</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+      <h2>${heading}</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrishna, ${date}.</h5>
       <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
       <div>
 	  ${content}
@@ -80,9 +80,7 @@ var template= `
       <br><br>
       </div>
 <hr>
-<h3>
-${heading}
-</h3>
+
       <div>
 	  ${date}
 	  </div>
