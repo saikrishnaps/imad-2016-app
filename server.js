@@ -78,15 +78,24 @@ var template= `
 	  ${content}
 	  </div>
       <br><br>
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
       </div>
 <hr>
 
-      <div>
-	  ${date}
-	  </div>
+      
 	  
 	  </div>
 	  </div>
+	  <footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
 </body>
 </html>
 `;
