@@ -37,7 +37,7 @@ var articles={
  //ARTICLE 3
     'articleThree':{
 	title:'Article Three',
-	heading:'Article Three',
+	heading:'Healthy Lifestyle',
 	date:'dec 15,2016',
 	content:`
 	 <p>
