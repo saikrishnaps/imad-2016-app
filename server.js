@@ -41,7 +41,17 @@ var articles={
 	date:'dec 15,2016',
 	content:`
 	 <p>
-	  why this problem occurs every time. i dont what is the problem with my app, two apps are running parallel
+	 A healthy lifestyle is a way of living that lowers the risk of being
+seriously ill or dying early. Not all diseases are preventable, but a large
+proportion of deaths, particularly those from coronary heart disease
+and lung cancer, can be avoided. Scientific studies have identified
+certain types of behaviour that contribute to the development of
+noncommunicable diseases and early death. Health is not just about
+avoiding disease. It is also about physical, mental and social wellbeing.
+When a healthy lifestyle is adopted, a more positive role model is
+provided for other people in the family, particularly children. This
+booklet aims to help readers change their behaviour and improve their
+health in order to live healthier, longer lives. why this problem occurs every time. i dont what is the problem with my app, two apps are running parallel
 	  </p>
 	   `
 }
