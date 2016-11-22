@@ -12,11 +12,14 @@ app.use(morgan('combined'));
 var articles={
     'articleOne':{
 	title:'Article One',
-	heading:'Article ONE',
+	heading:'Education',
 	date:'dec 12,2016',
 	content:`
 	 <p>
-	  why this problem occurs every time. i dont what is the problem with my app, two apps are running parallel
+	  Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes place under the guidance of educators, but learners may also educate themselves.[1] Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.</p>
+	 <p> Education is commonly divided formally into such stages as preschool or kindergarten, primary school, secondary school and then college, university, or apprenticeship.
+
+A right to education has been recognized by some governments, including at the global level: Article 13 of the United Nations' 1966 International Covenant on Economic, Social and Cultural Rights recognizes a universal right to education.[2] In most regions education is compulsory up to a certain age.
 	  </p>  `
 	
 
