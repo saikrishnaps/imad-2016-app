@@ -1,54 +1,154 @@
-<!Doctype html>
-    <head>
-        <script type="text/javascript" src="/ui/main.js"></script>
-        <link href="/ui/style.css" rel="stylesheet" />
-        
-    </head>
-    <body>
-	
-<div id="header">
-<a href="/sai">HOME</a>|
-<a href="/sai/articleOne">Article1</a>|
-<a href="/sai/articleTwo">Article2</a>|
-<a href="/sai/articleThree">Article3</a>|
-<a href="/sai/counter">TestCounter</a>
-</div>
-<hr>
-        <div class="center">
-          <img id="imgi" src="http://www.queness.com/resources/images/png/apple_web.png" class="img-medium"/>
-        </div>
-        <br>
-		<div id="panel">
-        <div class="center text-big bold">
-          Saikrishna
-        </div>
-	    <table align="center">
-		<tr><td><b>-----------</b><br>-----------------<td><tr>
-		</table>
-		</div>
-		
-    <center>
-		
-		
-	
-<hr>
-<!--
-<h3>Website Hit counter</h3>
-<span id="counter">0</span>-HITS
-<hr>
--->
-You <input type="button" id="ctrbtn" value="clicked Me" />-<span id="counterTxt">0</span>Times<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="/ui/main.js"></script>
+  <title>Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/ui/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head> 
+<body>
 
-<input type="text" id="name" placeholder="name" /><input type="submit" id="submitbtn" value="SUBMIT" />
+<div class="container-fluid"> 
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Sai's Blog</h4> 
+           
+      <div class="container">
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="http://www.hit4hit.org/img/login/user-icon-6.png" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Saikrishna
+					</div>
+					<div class="profile-usertitle-job">
+						Writer
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				
+				<!-- END SIDEBAR BUTTONS -->
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+						<li class="active">
+							<a href="/articleOne">
+							<i class="glyphicon glyphicon-ok"></i>
+							Article One </a>
+						</li>
+						<li>
+							<a href="/articleTwo">
+							<i class="glyphicon glyphicon-ok"></i>
+							Article Two </a>
+						</li>
+						<li>
+							<a href="/articleThree">
+							<i class="glyphicon glyphicon-ok"></i>
+							Article Three </a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+		</div>
+    </div>
+    </div>
+    </div>
+    <div class="btn pull-right">
+    <a href="/login" class="btn btn-info" role="button">Login</a>
+<a href="/signup" class="btn btn-warning" role="button">Signup</a>
+</div>
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      
+      <hr>
+      <h2>Education</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrishna, Sep 27, 2016.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes place under the guidance of educators, but learners may also educate themselves.[1] Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy....</p><a href="/articleOne">read more</a>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Food</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrihna, Sep 27, 2016.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>Food is any substance consumed to provide nutritional support for the body. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.Historically, people secured food through two methods: hunting and gathering and agriculture. Today, the majority of the food energy required by the ever increasing population of the world is supplied by the food industry.Food safety and food security are monitored by agencies like the International Association for Food Protection, World Resources Institute, World Food Programme, Food and Agriculture Organization, and International Food Information Council. They address issues such as sustainability, biological diversity, climate change, nutritional economics, population growth, water supply, and access to food.The right to food is a human right derived from the International Covenant on Economic, Social and Cultural Rights (ICESCR), recognizing the "right to an adequate standard of living, including adequate food", as well as the "fundamental right to be free from hunger".</p>
+      <a href="/articleTwo">read more</a>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Healthy Lifestyle</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Saikrihna, Sep 27, 2016.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>A healthy lifestyle is a way of living that lowers the risk of being
+seriously ill or dying early. Not all diseases are preventable, but a large
+proportion of deaths, particularly those from coronary heart disease
+and lung cancer, can be avoided. Scientific studies have identified
+certain types of behaviour that contribute to the development of
+noncommunicable diseases and early death. Health is not just about
+avoiding disease. It is also about physical, mental and social wellbeing.
+When a healthy lifestyle is adopted, a more positive role model is
+provided for other people in the family, particularly children. This
+booklet aims to help readers change their behaviour and improve their
+health in order to live healthier, longer lives.</p>
+      <a href="/articleThree">read more</a>
+      
+      <hr>
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="http://images.clipartpanda.com/user-clipart-dagobert83_female_user_icon.png" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Anja <small>Sep 29, 2015, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for you!! 
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="http://www.clipartkid.com/images/293/user-f027-user-male-man-business-icon-512x512-clipart-best-4tmt4V-clipart.png" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small>Sep 25, 2015, 8:25 PM</small></h4>
+          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="http://www.clipartkid.com/images/293/user-f027-user-male-man-business-icon-512x512-clipart-best-4tmt4V-clipart.png" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+              <input type="text" id="name" placeholder="name" /><input type="submit" id="submitbtn" value="SUBMIT" />
 <ul id="namelist">
 </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<footer class="container-fluid">
+  <p>write me at "saikrshn27@gmail.com"</p>
+  
+</footer>
 
-
-
-
- <div id="footer"></div>
-
- </center>
-    </body>
-	</html>
+</body>
+</html>
